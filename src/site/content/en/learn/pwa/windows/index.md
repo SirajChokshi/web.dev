@@ -96,7 +96,7 @@ If you want to force open the browser with a URL and not an in-app browser, you 
 
 ```js
 function openBrowser(url) {
-	window.open("url", "_blank", "");
+	window.open(url, "_blank", "");
 }
 ```
 
